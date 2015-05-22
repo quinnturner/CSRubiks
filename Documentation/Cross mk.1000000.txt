@@ -1,0 +1,34 @@
+Client:
+Checks each cubelet, gives a weighting of 0, 1, or 2
+For each cubelet with a tied weighting:
+Calls the helper method, passing it a new cube and the number of cubelet to solve for
+Each helper method returns the solve moves (as the client already knows its cube)
+The solve moves are compressed and weighted
+Uncompressed solve moves are added to offical moves
+Temp. cube replaces original (unmodified) cube.
+
+Helper:
+gets a cubelet and number passed to it.
+Solves for the specific directed cubelet
+Adds uncompressed moves to string
+Checks the remaining cubelets, gives a weighting 1, 2, or 3
+Calls the helper method, passing it a new cube and the number of cubelet to solve for
+Each helper method returns the solve moves
+The solve moves are compressed and weighted
+Uncompressed solve moves are added to returned moves
+
+
+Check:
+Checks each cubelet, gives a weighting of 0, 1, or 2
+For each cubelet with a tied weighting:
+Calls move/solve to move/solve for the decided cubelet
+Decides best move/move to keep
+Checks if solved
+Calls itself again
+
+
+Move/Solve:
+Moves/solves, returns moves
+
+
+

@@ -1,0 +1,444 @@
+Case 1
+
+testCube.FPrime();
+testCube.U();
+testCube.FPrime();
+testCube.USquared();
+testCube.RPrime();
+testCube.FSquared();
+testCube.R();
+testCube.USquared();
+testCube.FSquared();
+moves: 9
+
+Case 2
+
+testCube.RPrime();
+testCube.USquared();
+testCube.BPrime();
+testCube.R();
+testCube.B();
+testCube.USquared();
+testCube.R();
+moves: 7
+
+Case 3
+
+testCube.RPrime();
+testCube.USquared();
+testCube.BPrime();
+testCube.RPrime();
+testCube.B();
+testCube.USquared();
+testCube.R();
+moves: 7
+
+Case 4
+
+testCube.RSquared();
+testCube.USquared();
+testCube.RPrime();
+testCube.UPrime();
+testCube.R();
+testCube.UPrime();
+testCube.RPrime();
+testCube.USquared();
+testCube.RPrime();
+moves: 9
+
+Case 5
+
+testCube.FSquared();
+testCube.LPrime();
+testCube.UPrime();
+testCube.L();
+testCube.U();
+testCube.F();
+testCube.UPrime();
+testCube.F();
+moves: 8
+
+Case 6
+
+testCube.R();
+testCube.UPrime();
+testCube.RSquared();
+testCube.F();
+testCube.R();
+testCube.FPrime();
+moves: 6
+
+Case 7
+NOTE: Diagram has edge in position 9 where it should be 10, therefore the first move is a USquared from UPrime
+testCube.USquared();
+testCube.R();
+testCube.UPrime();
+testCube.RPrime();
+testCube.FPrime();
+testCube.UPrime();
+testCube.F();
+moves: 7
+
+Case 8
+
+testCube.FSquared();
+testCube.USquared();
+testCube.F();
+testCube.U();
+testCube.FPrime();
+testCube.U();
+testCube.F();
+testCube.USquared();
+testCube.F();
+moves: 9
+
+Case 9
+
+testCube.FPrime();
+testCube.U();
+testCube.FPrime();
+testCube.UPrime();
+testCube.LPrime();
+testCube.U();
+testCube.L();
+testCube.FSquared();
+moves: 8
+
+Case 10
+
+testCube.FPrime();
+testCube.U();
+testCube.FSquared();
+testCube.RPrime();
+testCube.FPrime();
+testCube.R();
+moves: 6
+
+Case 11
+NOTE: Diagram has edge in position 10 where it should be 9, therefore the first move is a USquared from U
+testCube.USquared();
+testCube.FPrime();
+testCube.U();
+testCube.F();
+testCube.R();
+testCube.U();
+testCube.RPrime();
+moves: 7
+
+Case 12
+
+testCube.U();
+testCube.R();
+testCube.USquared();
+testCube.B();
+testCube.USquared();
+testCube.BPrime();
+testCube.RPrime();
+moves: 7
+
+Case 13
+
+testCube.U();
+testCube.FPrime();
+testCube.UPrime();
+testCube.F();
+testCube.UPrime();
+testCube.R();
+testCube.U();
+testCube.RPrime();
+moves: 8
+
+Case 14
+
+testCube.F();
+testCube.RPrime();
+testCube.FPrime();
+testCube.R();
+moves: 4
+
+Case 15
+
+testCube.RPrime();
+testCube.USquared();
+testCube.RSquared();
+testCube.U();
+testCube.RSquared();
+testCube.U();
+testCube.R();
+moves: 7
+
+Case 16
+
+testCube.RSquared();
+testCube.B();
+testCube.U();
+testCube.BPrime();
+testCube.UPrime();
+testCube.RSquared();
+moves: 6
+
+Case 17
+
+testCube.FSquared();
+testCube.UPrime();
+testCube.LPrime();
+testCube.U();
+testCube.L();
+testCube.FSquared();
+moves: 6
+
+Case 18
+
+testCube.R();
+testCube.U();
+testCube.RPrime();
+moves: 3
+
+Case 19
+
+testCube.FPrime();
+testCube.UPrime();
+testCube.LPrime();
+testCube.USquared();
+testCube.L();
+testCube.UPrime();
+testCube.F();
+moves: 7
+
+Case 20
+
+testCube.UPrime();
+testCube.R();
+testCube.UPrime();
+testCube.RPrime();
+testCube.U();
+testCube.R();
+testCube.U();
+testCube.RPrime();
+moves: 8
+
+Case 21
+
+testCube.R();
+testCube.UPrime();
+testCube.RPrime();
+testCube.USquared();
+testCube.FPrime();
+testCube.UPrime();
+testCube.F();
+moves: 7
+
+
+Case 22
+
+testCube.BPrime();
+testCube.D();
+testCube.B();
+testCube.UPrime();
+testCube.BPrime();
+testCube.DPrime();
+testCube.B();
+moves: 7
+
+Case 23
+
+testCube.UPrime();
+testCube.R();
+testCube.U();
+testCube.RPrime();
+testCube.U();
+testCube.FPrime();
+testCube.UPrime();
+testCube.F();
+moves: 8
+
+Case 24
+
+testCube.U();
+testCube.FPrime();
+testCube.U();
+testCube.F();
+testCube.UPrime();
+testCube.FPrime();
+testCube.UPrime();
+testCube.F();
+moves: 8
+
+Case 25
+
+testCube.FPrime();
+testCube.U();
+testCube.F();
+testCube.USquared();
+testCube.R();
+testCube.U();
+testCube.RPrime();
+moves: 7
+
+Case 26
+
+testCube.FPrime();
+testCube.UPrime();
+testCube.F();
+moves: 3
+
+Case 27
+
+testCube.FSquared();
+testCube.USquared();
+testCube.RPrime();
+testCube.FSquared();
+testCube.R();
+testCube.USquared();
+testCube.FSquared();
+moves: 7
+
+Case 28
+
+testCube.FSquared();
+testCube.LPrime();
+testCube.UPrime();
+testCube.L();
+testCube.U();
+testCube.FSquared();
+moves: 6
+
+Case 29
+
+testCube.RSquared();
+testCube.U();
+testCube.B();
+testCube.UPrime();
+testCube.BPrime();
+testCube.RSquared();
+moves: 6
+
+Case 30
+
+testCube.U();
+testCube.R();
+testCube.UPrime();
+testCube.RPrime();
+moves: 4
+
+Case 31
+
+testCube.F();
+testCube.USquared();
+testCube.FSquared();
+testCube.UPrime();
+testCube.FSquared();
+testCube.UPrime();
+testCube.FPrime();
+moves: 7
+
+Case 32
+
+testCube.RSquared();
+testCube.U();
+testCube.RSquared();
+testCube.U();
+testCube.RSquared();
+testCube.USquared();
+testCube.RSquared();
+moves: 7
+
+Case 33
+
+testCube.R();
+testCube.UPrime();
+testCube.RPrime();
+testCube.FPrime();
+testCube.USquared();
+testCube.F();
+moves: 6
+
+Case 34
+
+testCube.FPrime();
+testCube.USquared();
+testCube.F();
+testCube.U();
+testCube.FPrime();
+testCube.UPrime();
+testCube.F();
+moves: 7
+
+Case 35
+
+testCube.USquared();
+testCube.RSquared();
+testCube.USquared();
+testCube.RPrime();
+testCube.UPrime();
+testCube.R();
+testCube.UPrime();
+testCube.RSquared();
+moves: 8
+
+Case 36
+
+testCube.UPrime();
+testCube.FPrime();
+testCube.USquared();
+testCube.FSquared();
+testCube.RPrime();
+testCube.FPrime();
+testCube.R();
+moves: 7
+
+Case 37
+
+testCube.R();
+testCube.B();
+testCube.USquared();
+testCube.BPrime();
+testCube.RPrime();
+moves: 5
+
+Case 38
+
+testCube.U();
+testCube.R();
+testCube.USquared();
+testCube.RSquared();
+testCube.F();
+testCube.R();
+testCube.FPrime();
+moves: 7
+
+Case 39
+
+testCube.FPrime();
+testCube.LPrime();
+testCube.USquared();
+testCube.L();
+testCube.F();
+moves: 5
+
+Case 40
+
+testCube.R();
+testCube.USquared();
+testCube.RPrime();
+testCube.UPrime();
+testCube.R();
+testCube.U();
+testCube.RPrime();
+moves: 7
+
+Case 41
+
+testCube.FPrime();
+testCube.UPrime();
+testCube.FPrime();
+testCube.L();
+testCube.F();
+testCube.LPrime();
+testCube.USquared();
+testCube.F();
+moves: 8
+
+Case 42
+
+moves: 0

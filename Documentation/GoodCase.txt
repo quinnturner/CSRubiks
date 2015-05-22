@@ -1,0 +1,83 @@
+moves to create case:
+BPrime 
+RPrime 
+D 
+L 
+R 
+BPrime 
+USquared 
+F 
+BPrime 
+FSquared 
+D 
+U 
+DPrime 
+FSquared 
+RSquared 
+FSquared 
+B 
+shortest moves:  B B F L L L U U U B
+compressed:  B2 F L' U' B
+ B B U U U B U F L L L
+cube #0 weighting: 0
+ B B F U U U B U L L L
+cube #1 weighting: -6
+ B B F L L L U U U B
+cube #2 weighting: -7
+ B B B U B B B F L L L
+cube #3 weighting: -4
+ B B B U F B B B L L L
+cube #4 weighting: -4
+ B B B U F L L L L B B B L L L
+cube #5 weighting: -4
+ B B B U F L L L L B B B L L L
+cube #6 weighting: -4
+ B B B U F L L L L L L U U F U U L
+cube #7 weighting: 6
+ B B B U F L L L L L L U U F U U L
+cube #8 weighting: 6
+ F B B U U U B U L L L
+cube #9 weighting: -6
+ F B B L L L U U U B
+cube #10 weighting: -7
+ F U U U B B B U B B B L L L
+cube #11 weighting: 0
+ F U U U B B B U L L L L B B B L L L
+cube #12 weighting: 0
+ F U U U B B B U L L L L B B B L L L
+cube #13 weighting: 0
+ F U U U B B B U L L L L L L U U F U U L
+cube #14 weighting: 10
+ F U U U B B B U L L L L L L U U F U U L
+cube #15 weighting: 10
+ F L L L B B L U U U B B B U L L L
+cube #16 weighting: -5
+ F L L L B B L U U U B B B U L L L
+cube #17 weighting: -5
+ F L L L B B L L L U F U U U L
+cube #18 weighting: -8
+ F L L L B B L L L U F U U U L
+cube #19 weighting: -8
+bestMark: 18
+optimal:  F L L L B B L L L U F U U U L
+compressed  F L' B2 L' U F U' L
+0 COLOR FACING UP: W
+1 COLOR FACING UP: W
+2 COLOR FACING UP: B
+3 COLOR FACING UP: W
+4 COLOR FACING UP: G
+5 COLOR FACING UP: G
+6 COLOR FACING UP: R
+7 COLOR FACING UP: O
+8 COLOR FACING UP: W
+9 COLOR FACING UP: W
+10 COLOR FACING UP: W
+11 COLOR FACING UP: W
+12 COLOR FACING UP: O
+13 COLOR FACING UP: R
+14 COLOR FACING UP: B
+15 COLOR FACING UP: R
+16 COLOR FACING UP: O
+17 COLOR FACING UP: R
+18 COLOR FACING UP: O
+19 COLOR FACING UP: G

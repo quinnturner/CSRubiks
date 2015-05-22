@@ -1,0 +1,72 @@
+ORIENTATION:
+FOR EDGES:
+IF:
+Top or Bottom color faces either up or down, or is a L or R move from facing up or down, then its orientation = 0
+ELSE:
+IF:
+Front or Back color faces either forwards or backwards or is a L or R move from facing forwards or backwards, then its orientation = 0 
+Else:
+Orientation = 1
+THEREFORE:
+F or B/F' or B' moves will flip orientation, but nothing else
+
+FOR CORNERS:
+Focused exclusively on which color is facing up or down 
+If Top or Bottom color then its orientation = 0
+If Front or Back color then its orientation = 1
+If Left or Right color then its orientation = 2 
+
+THEREFORE
+All ² moves will not change orientation
+All U or D moves will not change orientation
+
+For a R or R', L or L' move:
+Switch to side facing front or back
+For a F or F', B or B' move:
+Switch to side facing left or right
+
+From position 0,
+For a R or R', L or L'move:
+0->1
+For a F or F', B or B' move:
+0->2
+
+From position 1,
+For a R or R', L or L'move:
+1->0
+For a F or F', B or B' move:
+1->2
+
+From position 2,
+For a R or R', L or L'move:
+2->1
+For a F or F', B or B' move:
+2->0
+
+
+IGNORE:
+0-7 are corners, 8-19 are edges, 20-25 are middle pieces
+0 WGO, 1 WOB, 2 WRG, 3 WRB, 4 YOG, 5 YBO, 6 YRG, 7 YRB
+8 WO, 9 WG, 10 WB, 11 WR, 12 GO, 13 OB, 14 GR, 15 RB, 16 YO, 17 YG, 18 YB, 19 YR
+20 W, 21 O, 22 G, 23 B, 24 R, 25 Y
+This patten is recognized with U (top) face as white, F (front) face as red, R (right) face as blue. 
+For corners, starting with the back left corner (WGO) and initializing top-to-bottom, back-to-front, then left-to-right.
+For edges, starting with the upper-back-middle edge (WO) and initializing top-to-bottom, back-to-front, then left-to-right.
+For faces, starting with the top face (white), and initializing top-to-bottom, back-to-front, then left-to-right.
+
+
+Position:
+Corners:
+0 1
+2 3
+
+4 5
+6 7
+
+For R:
+1->5
+3->1
+5->7
+7->3
+
+Edges:

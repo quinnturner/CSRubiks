@@ -1,0 +1,13 @@
+class-to-graphics format:
+
+0 1 2 3 4 5
+w y r o b g
+
+2D integer array
+
+1st array is of length 6
+index: 0 = top, 1 = bottom, 2 = front, 3 = back, 4 = right, 5 = left
+next 8 are of length 3
+index: 0 = top, 1 = back, 2 = sides
+last 12 are of length 2
+index: 0 = top, 1 = not top

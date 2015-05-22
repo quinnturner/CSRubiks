@@ -1,0 +1,8 @@
+level 1 is bad
+level 3 orientation = 0 is bad
+level 3 orientation !=0 is good
+
+solve in order:
+level 3 orientation !=0
+level 3 orientation = 0
+level 1

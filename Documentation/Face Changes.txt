@@ -1,0 +1,74 @@
+On Front rotation:
+For Corners:
+If 2, or right/left goes to 2, switch orientation like left/right
+
+For edges: 
+If 1,2,4,5,6,7 9,10 in positions 0,3,8,11, 1->0, vice versa
+
+On Right rotation:
+For Corners: 
+If 1, or front/back goes to 1, switch orientation like front/back
+
+If 0,3,4,5,6,7,8,11 in positions 1,2,9,10 1->0, vice versa
+
+Axes search:
+1,2,4,5,6,7, 9,10 (B/G)
+0,3,4,5,6,7,8,11 (R/O)
+0,1,2,3,8,9,10,11 (W/Y)
+
+look through all positions
+
+check if position is excluded
+if yes:
+check if axis cubelets are present
+if no:
+check if exclusion cubelets are present
+
+Position: 1
+Cubelet number: 9
+Cubelet faces: GY
+Orientation: 1
+COLOR FACING UP: Y
+
+        System.out.println("ROTATE FORWARDS");
+        for (int i = 0; i < 8; i++) {
+            if (oldCorners[i].orientation == 2) {
+                if (cornerInPosition(i)) {
+                    oldCorners[i].setOrientation(1);
+                } else {
+                    oldCorners[i].setOrientation(0);
+                }
+            } else {
+                int oldOrientation = oldCorners[i].orientation;
+                if (cornerInPosition(i)) {
+                    if (oldCorners[i].orientation == 0) {
+                        oldCorners[i].setOrientation(1);
+                    } else if (oldCorners[i].orientation == 1) {
+                        oldCorners[i].setOrientation(2);
+                    }
+                } else {
+                    if (oldCorners[i].orientation == 0) {
+                        oldCorners[i].setOrientation(2);
+                    } else if (oldCorners[i].orientation == 1) {
+                        oldCorners[i].setOrientation(0);
+                    }
+                }
+                if (oldCorners[i].orientation != 2) {
+                    oldCorners[i].setOrientation(oldOrientation);
+                }
+            }
+        }
+
+        for (int i = 0; i < 12; i++) {
+            if (oldEdges[i].number == 1 || oldEdges[i].number == 2 || oldEdges[i].number == 4
+                    || oldEdges[i].number == 5 || oldEdges[i].number == 6 || oldEdges[i].number == 7
+                    || oldEdges[i].number == 9 || oldEdges[i].number == 10) {
+                if (i == 0 || i == 3 || i == 8 || i == 11) {
+                    oldEdges[i].setOrientation(oldEdges[i].orientation == 0 ? 1 : 0);
+                }
+            } else {
+                if (!(i == 0 || i == 3 || i == 8 || i == 11)) {
+                    oldEdges[i].setOrientation(oldEdges[i].orientation == 0 ? 1 : 0);
+                }
+            }
+        }

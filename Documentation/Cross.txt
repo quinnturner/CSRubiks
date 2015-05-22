@@ -1,0 +1,68 @@
+Specifications:
+Recursion: 
+Check to see how many cubelets are in position
+Select best for treat as.
+Select quickest move (1,2,3 etc.) 
+Therefore, solve order is weighted by minimum moves
+In the event of a tie, then recursion to do both
+
+
+
+Orientation 1
+
+Original Position: 0
+Disturbs: 0
+Moves: B L
+Result: position 3
+Moves: B' R'
+Result: position 1
+
+Original Position: 1
+Disturbs: 1
+Moves: R B
+Result: position 0
+Moves: R' F'
+Result: position 2
+
+Original Position: 2
+Disturbs: 2
+Moves: F R
+Result: position 1
+Moves: F' L'
+Result: position 3
+
+Original Position: 3
+Disturbs: 3
+Moves: L F
+Result: position 0
+Moves: L' B'
+Result: position 2
+
+Original Position: 8
+Disturbs: 0
+Moves: B' L
+Result: position 3
+Moves: B R'
+Result: position 1
+
+Original Position: 9
+Disturbs: 1
+Moves: R' B
+Result: position 0
+Moves: R F'
+Result: position 2
+
+Original Position: 10
+Disturbs: 2
+Moves: F' R
+Result: position 1
+Moves: F L'
+Result: position 3
+
+Original Position: 11
+Disturbs: 3
+Moves: L' F
+Result: position 0
+Moves: L B'
+Result: position 2
+

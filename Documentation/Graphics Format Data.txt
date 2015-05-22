@@ -1,0 +1,66 @@
+        // front
+//        drawFacelet(baseX, baseY, 1, 2, g2);
+//        drawFacelet(baseX + horizontalShift, baseY, 1, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 2, baseY, 1, 2, g2);
+//        drawFacelet(baseX, baseY + horizontalShift, 1, 2, g2);
+//        drawFacelet(baseX + horizontalShift, baseY + horizontalShift, 1, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 2, baseY + horizontalShift, 1, 2, g2);
+//        drawFacelet(baseX, baseY + horizontalShift * 2, 1, 2, g2);
+//        drawFacelet(baseX + horizontalShift, baseY + horizontalShift * 2, 1, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 2, baseY + horizontalShift * 2, 1, 2, g2);
+
+        // top
+//        drawFacelet(baseX, baseY - 3, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift, baseY - 3 - diagonalShift, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift * 2, baseY - 3 - diagonalShift * 2, 0, 2, g2);
+//        drawFacelet(baseX + horizontalShift, baseY - 3, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift + horizontalShift, baseY - 3 - diagonalShift, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift * 2 + horizontalShift, baseY - 3 - diagonalShift * 2, 0, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 2, baseY - 3, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift + horizontalShift * 2, baseY - 3 - diagonalShift, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift * 2 + horizontalShift * 2, baseY - 3 - diagonalShift * 2, 0, 2, g2);
+
+        // right
+//        drawFacelet(baseX + horizontalShift * 3, baseY - 1, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + diagonalShift, baseY - 1 - diagonalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + diagonalShift * 2, baseY - 1 - diagonalShift * 2, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3, baseY - 1 + horizontalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + diagonalShift, baseY - 1 + horizontalShift - diagonalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + diagonalShift * 2, baseY - 1 + horizontalShift - diagonalShift * 2, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3, baseY - 1 + horizontalShift * 2, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + diagonalShift, baseY - 1 + horizontalShift * 2 - diagonalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + diagonalShift * 2, baseY - 1 + horizontalShift * 2 - diagonalShift * 2, 2, 2, g2);
+//split
+
+        // back
+//        drawFacelet(baseX + xBackOffset, baseY + yBackOffset, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset + horizontalShift, baseY + yBackOffset, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset + horizontalShift * 2, baseY + yBackOffset, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset, baseY + yBackOffset + horizontalShift, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset + horizontalShift, baseY + yBackOffset + horizontalShift, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset + horizontalShift * 2, baseY + yBackOffset + horizontalShift, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset, baseY + yBackOffset + horizontalShift * 2, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset + horizontalShift, baseY + yBackOffset + horizontalShift * 2, 1, 2, g2);
+//        drawFacelet(baseX + xBackOffset + horizontalShift * 2, baseY + yBackOffset + horizontalShift * 2, 1, 2, g2);
+
+        // bottom
+//        drawFacelet(baseX, baseY - 3 + yBottomOffset, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift, baseY - 3 + yBottomOffset - diagonalShift, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift * 2, baseY - 3 + yBottomOffset - diagonalShift * 2, 0, 2, g2);
+//        drawFacelet(baseX + horizontalShift, baseY - 3 + yBottomOffset, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift + horizontalShift, baseY - 3 + yBottomOffset - diagonalShift, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift * 2 + horizontalShift, baseY - 3 + yBottomOffset - diagonalShift * 2, 0, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 2, baseY - 3 + yBottomOffset, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift + horizontalShift * 2, baseY - 3 + yBottomOffset - diagonalShift, 0, 2, g2);
+//        drawFacelet(baseX + diagonalShift * 2 + horizontalShift * 2, baseY - 3 + yBottomOffset - diagonalShift * 2, 0, 2, g2);
+
+        // left
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset, baseY - 1, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset + diagonalShift, baseY - 1 - diagonalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset + diagonalShift * 2, baseY - 1 - diagonalShift * 2, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset, baseY - 1 + horizontalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset + diagonalShift, baseY - 1 + horizontalShift - diagonalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset + diagonalShift * 2, baseY - 1 + horizontalShift - diagonalShift * 2, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset, baseY - 1 + horizontalShift * 2, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset + diagonalShift, baseY - 1 + horizontalShift * 2 - diagonalShift, 2, 2, g2);
+//        drawFacelet(baseX + horizontalShift * 3 + xLeftOffset + diagonalShift * 2, baseY - 1 + horizontalShift * 2 - diagonalShift * 2, 2, 2, g2);

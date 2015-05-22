@@ -1,0 +1,65 @@
+
+
+Associations:
+8, 16, 12-o1, 13-o1
+9, 13, 17, 14
+10, 18, 15-o1, 14-o1
+11, 12, 15, 19
+
+Orientation 1
+
+Original Position: 0
+Disturbs: 0
+Moves: B L
+Result: position 3
+Moves: B' R'
+Result: position 1
+
+Original Position: 1
+Disturbs: 1
+Moves: R B
+Result: position 0
+Moves: R' F'
+Result: position 2
+
+Original Position: 2
+Disturbs: 2
+Moves: F R
+Result: position 1
+Moves: F' L'
+Result: position 3
+
+Original Position: 3
+Disturbs: 3
+Moves: L F
+Result: position 0
+Moves: L' B'
+Result: position 2
+
+Original Position: 8
+Disturbs: 0
+Moves: B' L
+Result: position 3
+Moves: B R'
+Result: position 1
+
+Original Position: 9
+Disturbs: 1
+Moves: R' B
+Result: position 0
+Moves: R F'
+Result: position 2
+
+Original Position: 10
+Disturbs: 2
+Moves: F' R
+Result: position 1
+Moves: F L'
+Result: position 3
+
+Original Position: 11
+Disturbs: 3
+Moves: L' F
+Result: position 0
+Moves: L B'
+Result: position 2
